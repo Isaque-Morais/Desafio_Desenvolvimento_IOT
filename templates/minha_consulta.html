@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Dados da Doação</h1>
+<p>O numero da nota é: {{form.numero.value}}</p>
+<p>O CNPJ é: {{form.cnpj.value}}</p>
+<p>Mercado: {{form.mercado.value}}</p>
+<p>O valor da compra é: {{form.valor_compra.value}}</p>
+<p>A data de doação é: {{form.data.value}}</p>
+<p>A entidade de doação é: {{form.entidade.value}}</p>
+<p>O tipo de nota é: {{form.tipos_nota.value}}</p>
+{% endblock %}
